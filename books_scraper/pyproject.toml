@@ -1,0 +1,12 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "curl-cffi>=0.13.0",
+    "duckdb>=1.4.1",
+    "jupyterlab>=4.4.10",
+    "selectolax>=0.4.0",
+]
