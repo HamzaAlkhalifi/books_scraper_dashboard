@@ -21,8 +21,7 @@ def parser(request, response, list_: list) -> None:
         list_.append({
             "title": title,
             "category": category,
-            "price": price,
-            "availability": availability.strip()
+            "price": float(price.replace("£","")),
         })
     sleep(5)
     print(list_)
